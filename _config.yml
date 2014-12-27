@@ -1,0 +1,13 @@
+# Site settings
+title: НП групп
+email: sarhov@sarhov.com
+description: > # Автомобильные грузоперевозки
+baseurl: "/np_groups/"
+url: "./" # the base hostname & protocol for your site
+
+github_username:  sarhov
+
+# Build settings
+markdown: kramdown
+include:      ["*.scss"]
+exclude: ["*.sublime-project", "*.sublime-workspace"]

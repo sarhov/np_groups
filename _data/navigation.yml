@@ -1,0 +1,24 @@
+top-nav:
+- title: Новости  
+  url: #
+- title: Статьи  
+  url: articles.html
+- title: Аудио  
+  url: audio.html
+- title: Видео  
+  url: videos.html
+- title: Толковый словарь  
+  url: explanatory-dictionary.html
+- title: О проекте  
+  url: #
+
+
+bottom-bar-nav:
+- title: Конституция
+- title: Наши права и свободы
+- title: Государство
+- title: Инструменты народовластия
+- title: Самоуправление  
+- title: Экономика
+- title: Общество
+- title: Вечевой колокол
