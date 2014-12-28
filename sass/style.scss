@@ -35,13 +35,20 @@
   fill: currentcolor;
 }
 
+body{
+  min-height: 1000%;
+  height: auto;
+}
+
 .header-wrap{
   padding: 23px 0;
 }
 
 .logo-link{
+  position: relative;
+  z-index: 1;
   &_header{
-    color: #fff;
+    color: $white;
     &:hover{
   margin-top: 5px;
       color: #cdf; 
@@ -66,4 +73,20 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+}
+
+.site-slogan{
+  color: $white;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: -50px;
+  line-height: 1.2;
+  padding: 10px;
+  border-radius: $global-radius;
+  font-style: italic;
+  font-size: 15px;
+  background: #2d4487;
+  max-width: 190px;
+  position: relative;
+  z-index: 2;
 }

@@ -1,90 +1,80 @@
-/* line 1, ../sass/style.scss */
-.icon {
-  display: inline-block;
-  color: #444444;
-  fill: currentColor;
-}
+/*
+Error: Undefined variable: "$white".
+        on line 51 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
 
-/* line 6, ../sass/style.scss */
-.icon-logo {
-  width: 70px;
-  height: 80px;
-  color: currentColor;
-  float: left;
-  margin-right: 10px;
-}
+46: 
+47: .logo-link{
+48:   position: relative;
+49:   z-index: 1;
+50:   &_header{
+51:     color: $white;
+52:     &:hover{
+53:   margin-top: 5px;
+54:       color: #cdf; 
+55:       // opacity: 0.8;
+56:     }
 
-/* line 13, ../sass/style.scss */
-#icon-logo .path1 {
-  fill: currentcolor;
-}
-
-/* line 16, ../sass/style.scss */
-#icon-logo .path2 {
-  fill: currentcolor;
-}
-
-/* line 19, ../sass/style.scss */
-#icon-logo .path3 {
-  fill: currentcolor;
-}
-
-/* line 22, ../sass/style.scss */
-#icon-logo .path4 {
-  fill: currentcolor;
-}
-
-/* line 25, ../sass/style.scss */
-#icon-logo .path5 {
-  fill: currentcolor;
-}
-
-/* line 28, ../sass/style.scss */
-#icon-logo .path6 {
-  fill: currentcolor;
-}
-
-/* line 31, ../sass/style.scss */
-#icon-logo .path7 {
-  fill: currentcolor;
-}
-
-/* line 34, ../sass/style.scss */
-#icon-logo .path8 {
-  fill: currentcolor;
-}
-
-/* line 38, ../sass/style.scss */
-.header-wrap {
-  padding: 23px 0;
-}
-
-/* line 43, ../sass/style.scss */
-.logo-link_header {
-  color: #fff;
-}
-/* line 45, ../sass/style.scss */
-.logo-link_header:hover {
-  margin-top: 5px;
-  color: #cdf;
-}
-
-/* line 53, ../sass/style.scss */
-.site-title {
-  color: inherit;
-  text-transform: uppercase;
-  margin: 0;
-  font-weight: bold;
-  font-size: 52px;
-  line-height: 1;
-  padding-top: 5px;
-}
-
-/* line 63, ../sass/style.scss */
-.site-subtitle {
-  color: inherit;
-  margin: 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-}
+Backtrace:
+C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:51
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:282:in `call'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:282:in `_process_changes'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:229:in `loop'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:229:in `_wait_for_changes'
+C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$white\".\A         on line 51 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 46: \A 47: .logo-link{\A 48:   position: relative;\A 49:   z-index: 1;\A 50:   &_header{\A 51:     color: $white;\A 52:     &:hover{\A 53:   margin-top: 5px;\A 54:       color: #cdf; \A 55:       // opacity: 0.8;\A 56:     }"; }
