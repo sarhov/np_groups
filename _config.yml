@@ -1,7 +1,7 @@
 # Site settings
 title: НП групп
 email: sarhov@sarhov.com
-description: > # Автомобильные грузоперевозки
+description:  Автомобильные грузоперевозки
 baseurl: "/np_groups/"
 url: "./" # the base hostname & protocol for your site
 

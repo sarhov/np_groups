@@ -1,0 +1,69 @@
+.icon {
+  display: inline-block;
+  color: #444444;
+  fill: currentColor;
+}
+.icon-logo {
+  width: 70px;
+  height: 80px;
+  color: currentColor;
+  float: left;
+  margin-right: 10px;
+}
+#icon-logo .path1 {
+  fill: currentcolor;
+}
+#icon-logo .path2 {
+  fill: currentcolor;
+}
+#icon-logo .path3 {
+  fill: currentcolor;
+}
+#icon-logo .path4 {
+  fill: currentcolor;
+}
+#icon-logo .path5 {
+  fill: currentcolor;
+}
+#icon-logo .path6 {
+  fill: currentcolor;
+}
+#icon-logo .path7 {
+  fill: currentcolor;
+}
+#icon-logo .path8 {
+  fill: currentcolor;
+}
+
+.header-wrap{
+  padding: 23px 0;
+}
+
+.logo-link{
+  &_header{
+    color: #fff;
+    &:hover{
+  margin-top: 5px;
+      color: #cdf; 
+      // opacity: 0.8;
+    }
+  }
+}
+
+.site-title{
+  color: inherit;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 1;
+    padding-top: 5px;
+}
+
+.site-subtitle{
+  color: inherit;
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}

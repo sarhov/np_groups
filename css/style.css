@@ -1,0 +1,90 @@
+/* line 1, ../sass/style.scss */
+.icon {
+  display: inline-block;
+  color: #444444;
+  fill: currentColor;
+}
+
+/* line 6, ../sass/style.scss */
+.icon-logo {
+  width: 70px;
+  height: 80px;
+  color: currentColor;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 13, ../sass/style.scss */
+#icon-logo .path1 {
+  fill: currentcolor;
+}
+
+/* line 16, ../sass/style.scss */
+#icon-logo .path2 {
+  fill: currentcolor;
+}
+
+/* line 19, ../sass/style.scss */
+#icon-logo .path3 {
+  fill: currentcolor;
+}
+
+/* line 22, ../sass/style.scss */
+#icon-logo .path4 {
+  fill: currentcolor;
+}
+
+/* line 25, ../sass/style.scss */
+#icon-logo .path5 {
+  fill: currentcolor;
+}
+
+/* line 28, ../sass/style.scss */
+#icon-logo .path6 {
+  fill: currentcolor;
+}
+
+/* line 31, ../sass/style.scss */
+#icon-logo .path7 {
+  fill: currentcolor;
+}
+
+/* line 34, ../sass/style.scss */
+#icon-logo .path8 {
+  fill: currentcolor;
+}
+
+/* line 38, ../sass/style.scss */
+.header-wrap {
+  padding: 23px 0;
+}
+
+/* line 43, ../sass/style.scss */
+.logo-link_header {
+  color: #fff;
+}
+/* line 45, ../sass/style.scss */
+.logo-link_header:hover {
+  margin-top: 5px;
+  color: #cdf;
+}
+
+/* line 53, ../sass/style.scss */
+.site-title {
+  color: inherit;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 1;
+  padding-top: 5px;
+}
+
+/* line 63, ../sass/style.scss */
+.site-subtitle {
+  color: inherit;
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
