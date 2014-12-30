@@ -35,6 +35,24 @@
   fill: currentcolor;
 }
 
+.icon-phone{
+  height: 26px;
+  width: 26px;
+  color: #203572;
+}
+
+.icon-email{
+  width:  14px;
+  height: 10px;
+  color: #203572;
+}
+
+.icon-tag{
+  width: 14px;
+  height: 19px;
+  color: #203572;
+}
+
 body{
   min-height: 1000%;
   height: auto;
@@ -62,7 +80,7 @@ body{
   text-transform: uppercase;
   margin: 0;
   font-weight: bold;
-  font-size: 52px;
+  font-size: 48px;
   line-height: 1;
     padding-top: 5px;
 }
@@ -79,14 +97,47 @@ body{
   color: $white;
   margin: 0;
   margin-top: 10px;
-  margin-left: -50px;
+  // margin-left: -80px;
   line-height: 1.2;
   padding: 10px;
   border-radius: $global-radius;
   font-style: italic;
   font-size: 15px;
   background: #2d4487;
-  max-width: 190px;
+  max-width: 187px;
   position: relative;
   z-index: 2;
+}
+
+.site-phones{
+  padding-left: 37px; 
+  margin-top: 8px;
+  &__icon{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top:20px;
+    left: 0;
+  }
+}
+
+.site-addresses{
+  margin-top: 8px;
+  &__icon{
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  &__item{
+    display: block;
+
+  }
+  &__text{
+    vertical-align: middle;
+    text-align: right;
+    font-size: 14px;
+    &_small{
+      font-size: 12px;
+    }
+  }
+
 }
