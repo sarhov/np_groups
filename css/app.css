@@ -9496,88 +9496,115 @@ th.hide-for-touch {
   margin-right: 10px;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+.logo-link_footer {
+  margin-top: 10px;
+  display: block;
+  color: #afb9d6;
+}
+/* line 18, ../sass/style.scss */
+.logo-link_footer .icon-logo {
+  width: 45px;
+  height: 55px;
+}
+/* line 23, ../sass/style.scss */
+.logo-link_footer .site-title {
+  font-size: 28px;
+}
+/* line 27, ../sass/style.scss */
+.logo-link_footer .site-subtitle {
+  font-size: 7px;
+  letter-spacing: 0.2px;
+}
+
+/* line 34, ../sass/style.scss */
 #icon-logo .path1 {
   fill: currentcolor;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 #icon-logo .path2 {
   fill: currentcolor;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 #icon-logo .path3 {
   fill: currentcolor;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 #icon-logo .path4 {
   fill: currentcolor;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 #icon-logo .path5 {
   fill: currentcolor;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 #icon-logo .path6 {
   fill: currentcolor;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 #icon-logo .path7 {
   fill: currentcolor;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 #icon-logo .path8 {
   fill: currentcolor;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .icon-phone {
   height: 26px;
   width: 26px;
   color: #203572;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .icon-email {
   width: 14px;
   height: 10px;
   color: #203572;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 .icon-tag {
   width: 14px;
   height: 19px;
   color: #203572;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
+body {
+  padding-bottom: 123px;
+  min-height: 100%;
+}
+
+/* line 83, ../sass/style.scss */
 .header-wrap {
   padding: 23px 0;
 }
 
-/* line 64, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .logo-link {
   position: relative;
   z-index: 1;
 }
-/* line 67, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .logo-link_header {
   color: #FFFFFF;
 }
-/* line 69, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .logo-link_header:hover {
   margin-top: 5px;
   color: #cdf;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .site-title {
   color: inherit;
   text-transform: uppercase;
@@ -9588,7 +9615,7 @@ th.hide-for-touch {
   padding-top: 5px;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .site-subtitle {
   color: inherit;
   margin: 0;
@@ -9597,7 +9624,7 @@ th.hide-for-touch {
   letter-spacing: 1.2px;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .site-slogan {
   color: #FFFFFF;
   margin: 0;
@@ -9613,12 +9640,12 @@ th.hide-for-touch {
   z-index: 2;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .site-phones {
   padding-left: 37px;
   margin-top: 8px;
 }
-/* line 114, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .site-phones__icon {
   position: absolute;
   width: 26px;
@@ -9626,52 +9653,52 @@ th.hide-for-touch {
   top: 20px;
   left: 0;
 }
-/* line 121, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .site-phones__item {
   display: block;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 body > .wrap > .row {
   width: 990px !important;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .site-addresses {
   margin-top: 6px;
 }
-/* line 132, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .site-addresses__icon {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 136, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .site-addresses__item {
   display: block;
 }
-/* line 140, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .site-addresses__text {
   vertical-align: middle;
   text-align: right;
   font-size: 14px;
 }
-/* line 144, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .site-addresses__text_small {
   font-size: 12px;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .top-bar-wrap {
   background: #2d4487;
 }
 
-/* line 155, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .slider-wrap {
   height: 425px;
   background: #556694 url("../img/slider-bg.png") center top no-repeat;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .skills-wrap {
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 68%, #ebebeb 100%);
@@ -9683,3 +9710,33 @@ body > .wrap > .row {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 );
   height: 140px;
 }
+
+/* footer */
+/* line 201, ../sass/style.scss */
+.footer-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 123px;
+  width: 100%;
+  padding: 24px 0;
+}
+/* line 208, ../sass/style.scss */
+.footer-wrap::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent url("../img/footer-overlay.png") left top repeat;
+}
+
+/* line 219, ../sass/style.scss */
+.site-info {
+  font-size: 12px;
+  color: #dbdbdb;
+  line-height: 1.3;
+}
+
+/* END footer */
