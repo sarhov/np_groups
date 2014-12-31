@@ -54,8 +54,7 @@
 }
 
 body{
-  // min-height: 1000%;
-  height: auto;
+  // min-height: 1000%; height: auto;
 }
 
 .header-wrap{
@@ -68,7 +67,7 @@ body{
   &_header{
     color: $white;
     &:hover{
-  margin-top: 5px;
+      margin-top: 5px;
       color: #cdf; 
       // opacity: 0.8;
     }
@@ -82,7 +81,7 @@ body{
   font-weight: bold;
   font-size: 48px;
   line-height: 1;
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .site-subtitle{
@@ -119,10 +118,13 @@ body{
     top:20px;
     left: 0;
   }
+  &__item{
+    display: block;
+  }
 }
 
 .site-addresses{
-  margin-top: 8px;
+  margin-top: 6px;
   &__icon{
     vertical-align: middle;
     margin-right: 10px;
@@ -144,4 +146,21 @@ body{
 
 .top-bar-wrap{
   background:#2d4487;
+}
+
+.slider-wrap{
+  height: 425px;
+  background:#556694 url('../img/slider-bg.png') center top no-repeat;
+}
+
+.skills-wrap{
+  background: #ffffff;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 68%, #ebebeb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(68%,#f6f6f6), color-stop(100%,#ebebeb));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 68%,#ebebeb 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 68%,#ebebeb 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 68%,#ebebeb 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 68%,#ebebeb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 );
+  height: 140px;
 }
