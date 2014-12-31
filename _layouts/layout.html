@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation</title>
+  <title>{% if page.url == /index.html %} {{site.title}} {% else %} {{page.title}}  {% endif %}</title>
   <link rel="stylesheet" href="{{site.baseurl}}css/app.css" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <script src="{{site.baseurl}}js/vendor/modernizr.js"></script> 
