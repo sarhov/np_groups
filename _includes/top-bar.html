@@ -1,0 +1,27 @@
+<div class="wrap top-bar-wrap">
+  <div class="row">
+    <div class="columns large-10">
+      <nav class="top-bar" data-topbar role="navigation"> 
+        <ul class="title-area"> 
+          <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Меню</span></a>
+          </li> 
+        </ul> 
+        <section class="top-bar-section"> 
+          <!-- Left Nav Section --> 
+          <ul class="left">
+            {% for nav in site.data.navigation.top-nav %}
+            {% assign current = page.url | replace: '/', '' %}
+              <li {% if nav.url == current %} class="active" {% endif %}><a href="{{nav.url}}">{{nav.title}}</a></li> 
+            {% endfor %}
+          </ul> 
+        </section> 
+        <!-- top-bar-section -->
+      </nav>
+      <!-- top-bar -->
+    </div>
+    <!-- columns large-10 -->
+  </div>
+  <!-- row -->
+</div>
+<!-- /.wrap-navigation-wrap -->

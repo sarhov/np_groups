@@ -1,16 +1,24 @@
 top-nav:
-- title: Новости  
-  url: #
-- title: Статьи  
+- title: Главная  
+  url: index.html
+- title: О нас
+  url: about-us.html
+- title: Услуги  
+  url: services.html
+- title: Тарифы  
+  url: prices.html
+- title: Наш автопарк
+  url: autopark.html
+- title: Наши гарантии  
+  url: guarantees
+- title: Контакты 
+  url: contact.html
+- title: Отзывы  
+  url: reviews.html
+- title: Нововсти  
+  url: news.html
+- title: Статьи 
   url: articles.html
-- title: Аудио  
-  url: audio.html
-- title: Видео  
-  url: videos.html
-- title: Толковый словарь  
-  url: explanatory-dictionary.html
-- title: О проекте  
-  url: #
 
 
 bottom-bar-nav:
