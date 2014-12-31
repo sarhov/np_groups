@@ -123,6 +123,10 @@ body{
   }
 }
 
+body > .wrap > .row{
+  width: 990px !important;
+}
+
 .site-addresses{
   margin-top: 6px;
   &__icon{

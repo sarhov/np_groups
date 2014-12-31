@@ -9632,41 +9632,46 @@ th.hide-for-touch {
 }
 
 /* line 126, ../sass/style.scss */
+body > .wrap > .row {
+  width: 990px !important;
+}
+
+/* line 130, ../sass/style.scss */
 .site-addresses {
   margin-top: 6px;
 }
-/* line 128, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .site-addresses__icon {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 132, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .site-addresses__item {
   display: block;
 }
-/* line 136, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .site-addresses__text {
   vertical-align: middle;
   text-align: right;
   font-size: 14px;
 }
-/* line 140, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .site-addresses__text_small {
   font-size: 12px;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .top-bar-wrap {
   background: #2d4487;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .slider-wrap {
   height: 425px;
   background: #556694 url("../img/slider-bg.png") center top no-repeat;
 }
 
-/* line 156, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .skills-wrap {
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 68%, #ebebeb 100%);
