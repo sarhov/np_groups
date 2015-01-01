@@ -34,6 +34,10 @@
 
   {% include top-bar.html %}
 
+  {% if page.title %}
+      {% include breadcrumbs.html %}
+  {% endif %}
+
     {{content}}
 
   {% include footer.html %}  

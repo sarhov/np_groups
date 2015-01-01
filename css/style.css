@@ -1,35 +1,24 @@
 /*
-Error: Undefined variable: "$white".
-        on line 101 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
+Error: Undefined variable: "$blue".
+        on line 95 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
 
-96: 
-97: .logo-link{
-98:   position: relative;
-99:   z-index: 1;
-100:   &_header{
-101:     color: $white;
-102:     &:hover{
-103:       margin-top: 5px;
-104:       color: #cdf; 
-105:       // opacity: 0.8;
-106:     }
+90: 
+91: 
+92: 
+93: .header-wrap{
+94:   padding: 23px 0;
+95:   background:$blue;
+96: }
+97: 
+98: .logo-link{
+99:   position: relative;
+100:   z-index: 1;
 
 Backtrace:
-C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:101
+C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:95
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
@@ -77,4 +66,4 @@ C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:318:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 101 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 96: \A 97: .logo-link{\A 98:   position: relative;\A 99:   z-index: 1;\A 100:   &_header{\A 101:     color: $white;\A 102:     &:hover{\A 103:       margin-top: 5px;\A 104:       color: #cdf; \A 105:       // opacity: 0.8;\A 106:     }"; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 95 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 90: \A 91: \A 92: \A 93: .header-wrap{\A 94:   padding: 23px 0;\A 95:   background:$blue;\A 96: }\A 97: \A 98: .logo-link{\A 99:   position: relative;\A 100:   z-index: 1;"; }
