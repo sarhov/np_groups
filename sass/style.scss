@@ -78,6 +78,7 @@ body{
   // min-height: 1000%; height: auto;
   padding-bottom: 123px;
   min-height: 100%;
+  height: auto;
 }
 
 .header-wrap{
@@ -192,6 +193,25 @@ body > .wrap > .row{
   height: 140px;
 }
 
+.b-wrap{
+  padding: 50px 0 80px 0;
+  border-bottom: 1px solid #dcdcdc;
+  background:$white;
+}
+
+.b-title{
+  font-size:30px ;
+  &_big{
+  font-size: 50px;
+  }
+  &__text{
+  color: #0f0f0f;
+  &_blue{
+    font-weight: bold;
+    color: #3a529a;
+  }
+  }
+}
 
 
 
