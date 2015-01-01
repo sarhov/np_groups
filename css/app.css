@@ -9585,27 +9585,34 @@ body {
   height: auto;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
+.bordered-wrap {
+  padding-bottom: 0px;
+  display: inline-block;
+  border-bottom: 2px dashed #3a529a;
+}
+
+/* line 93, ../sass/style.scss */
 .header-wrap {
   padding: 23px 0;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .logo-link {
   position: relative;
   z-index: 1;
 }
-/* line 91, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .logo-link_header {
   color: #FFFFFF;
 }
-/* line 93, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .logo-link_header:hover {
   margin-top: 5px;
   color: #cdf;
 }
 
-/* line 101, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .site-title {
   color: inherit;
   text-transform: uppercase;
@@ -9616,7 +9623,7 @@ body {
   padding-top: 5px;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .site-subtitle {
   color: inherit;
   margin: 0;
@@ -9625,7 +9632,7 @@ body {
   letter-spacing: 1.2px;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .site-slogan {
   color: #FFFFFF;
   margin: 0;
@@ -9641,12 +9648,12 @@ body {
   z-index: 2;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .site-phones {
   padding-left: 37px;
   margin-top: 8px;
 }
-/* line 138, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .site-phones__icon {
   position: absolute;
   width: 26px;
@@ -9654,52 +9661,52 @@ body {
   top: 20px;
   left: 0;
 }
-/* line 145, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .site-phones__item {
   display: block;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 body > .wrap > .row {
   width: 990px !important;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .site-addresses {
   margin-top: 6px;
 }
-/* line 156, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .site-addresses__icon {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 160, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .site-addresses__item {
   display: block;
 }
-/* line 164, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .site-addresses__text {
   vertical-align: middle;
   text-align: right;
   font-size: 14px;
 }
-/* line 168, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .site-addresses__text_small {
   font-size: 12px;
 }
 
-/* line 175, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .top-bar-wrap {
   background: #2d4487;
 }
 
-/* line 179, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .slider-wrap {
   height: 425px;
   background: #556694 url("../img/slider-bg.png") center top no-repeat;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .skills-wrap {
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 68%, #ebebeb 100%);
@@ -9712,33 +9719,34 @@ body > .wrap > .row {
   height: 140px;
 }
 
-/* line 196, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .b-wrap {
   padding: 50px 0 80px 0;
   border-bottom: 1px solid #dcdcdc;
   background: #FFFFFF;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .b-title {
+  text-align: center;
   font-size: 30px;
 }
-/* line 204, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .b-title_big {
   font-size: 50px;
 }
-/* line 207, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .b-title__text {
   color: #0f0f0f;
 }
-/* line 209, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .b-title__text_blue {
   font-weight: bold;
   color: #3a529a;
 }
 
 /* footer */
-/* line 221, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -9747,7 +9755,7 @@ body > .wrap > .row {
   width: 100%;
   padding: 24px 0;
 }
-/* line 228, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .footer-wrap::before {
   content: '';
   width: 100%;
@@ -9758,7 +9766,7 @@ body > .wrap > .row {
   background: transparent url("../img/footer-overlay.png") left top repeat;
 }
 
-/* line 239, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .site-info {
   font-size: 12px;
   color: #dbdbdb;

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 92 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
+        on line 101 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
 
-87: 
-88: .logo-link{
-89:   position: relative;
-90:   z-index: 1;
-91:   &_header{
-92:     color: $white;
-93:     &:hover{
-94:       margin-top: 5px;
-95:       color: #cdf; 
-96:       // opacity: 0.8;
-97:     }
+96: 
+97: .logo-link{
+98:   position: relative;
+99:   z-index: 1;
+100:   &_header{
+101:     color: $white;
+102:     &:hover{
+103:       margin-top: 5px;
+104:       color: #cdf; 
+105:       // opacity: 0.8;
+106:     }
 
 Backtrace:
-C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:92
+C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:101
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -77,4 +77,4 @@ C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:318:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 92 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 87: \A 88: .logo-link{\A 89:   position: relative;\A 90:   z-index: 1;\A 91:   &_header{\A 92:     color: $white;\A 93:     &:hover{\A 94:       margin-top: 5px;\A 95:       color: #cdf; \A 96:       // opacity: 0.8;\A 97:     }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 101 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 96: \A 97: .logo-link{\A 98:   position: relative;\A 99:   z-index: 1;\A 100:   &_header{\A 101:     color: $white;\A 102:     &:hover{\A 103:       margin-top: 5px;\A 104:       color: #cdf; \A 105:       // opacity: 0.8;\A 106:     }"; }
