@@ -227,6 +227,21 @@ body > .wrap > .row{
 }  
 }
 
+.breadcrumbs {
+  li a{
+    border-bottom: 1px solid transparent;
+  }
+  a:hover{
+    color: currentColor;
+  }
+  li:not(.current) a{
+    border-color: #aeb5cf;
+  }
+  li:not(.current) a:hover{
+    border-bottom-color: transparent;
+  }
+}
+
 
 
 /* footer */

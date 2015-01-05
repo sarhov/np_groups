@@ -1,12 +1,13 @@
 <div class="wrap breadcurmbs-wrap">
   <div class="row">
-    <ul class="breadcrumbs"> 
-      <li><a href="#">Home</a></li> 
-      <li><a href="#">Features</a></li> 
-      <li class="unavailable"><a href="#">Gene Splicing</a></li> 
-      <li class="current"><a href="#">Cloning</a></li> 
-    </ul>
-    <!-- breadcrumbs -->
+    <div class="columns small-12">
+      <ul class="breadcrumbs"> 
+        <li><a href="{{site.baseurl}}/">Главная</a></li> 
+        <li class="current"><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li> 
+      </ul>
+      <!-- breadcrumbs -->
+    </div>
+    <!-- /.columns small-12 -->
   </div>
   <!-- /.row -->
 </div>

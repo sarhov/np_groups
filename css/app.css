@@ -2766,32 +2766,32 @@ select {
 /* line 118, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs {
   display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
+  padding: 1.0625rem 0.625rem 0.5rem;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: transparent;
+  border-color: transparent;
   border-radius: 12px;
 }
 /* line 122, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs > * {
   margin: 0;
   float: left;
-  font-size: 0.6875rem;
-  line-height: 0.6875rem;
-  text-transform: uppercase;
-  color: #008CBA;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  text-transform: none;
+  color: #3a529a;
 }
 /* line 68, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* line 70, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs > * a {
-  color: #008CBA;
+  color: #3a529a;
 }
 /* line 75, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -2825,8 +2825,8 @@ select {
 /* line 102, ../sass/components/_breadcrumbs.scss */
 .breadcrumbs > *:before {
   content: "/";
-  color: #AAAAAA;
-  margin: 0 0.75rem;
+  color: #333333;
+  margin: 0 0.375rem;
   position: relative;
   top: 1px;
 }
@@ -9746,8 +9746,25 @@ body > .wrap > .row {
   color: #3a529a;
 }
 
-/* footer */
+/* line 231, ../sass/style.scss */
+.breadcrumbs li a {
+  border-bottom: 1px solid transparent;
+}
 /* line 234, ../sass/style.scss */
+.breadcrumbs a:hover {
+  color: currentColor;
+}
+/* line 237, ../sass/style.scss */
+.breadcrumbs li:not(.current) a {
+  border-color: #aeb5cf;
+}
+/* line 240, ../sass/style.scss */
+.breadcrumbs li:not(.current) a:hover {
+  border-bottom-color: transparent;
+}
+
+/* footer */
+/* line 249, ../sass/style.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -9757,7 +9774,7 @@ body > .wrap > .row {
   padding: 24px 0;
   background: #4e629f;
 }
-/* line 242, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .footer-wrap::before {
   content: '';
   width: 100%;
@@ -9768,7 +9785,7 @@ body > .wrap > .row {
   background: transparent url("../img/footer-overlay.png") left top repeat;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .site-info {
   font-size: 12px;
   color: #dbdbdb;
