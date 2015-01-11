@@ -9812,6 +9812,60 @@ body > .wrap > .row {
 }
 
 /* line 292, ../sass/style.scss */
+.page-title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  padding: 10px 17px;
+  display: inline-block;
+  margin: 0 0 30px 0;
+  padding-right: 30px;
+  position: relative;
+  background: #3a529a;
+  background: -moz-linear-gradient(11deg, #3a529a 0%, #3a529a 65%, #32478d 65%, #32478d 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #3a529a), color-stop(65%, #3a529a), color-stop(65%, #32478d), color-stop(100%, #32478d));
+  background: -webkit-linear-gradient(11deg, #3a529a 0%, #3a529a 65%, #32478d 65%, #32478d 100%);
+  background: -o-linear-gradient(11deg, #3a529a 0%, #3a529a 65%, #32478d 65%, #32478d 100%);
+  background: -ms-linear-gradient(11deg, #3a529a 0%, #3a529a 65%, #32478d 65%, #32478d 100%);
+  background: linear-gradient(11deg, #3a529a 0%, #3a529a 65%, #32478d 65%, #32478d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a529a', endColorstr='#32478d', GradientType=1 );
+}
+
+/* line 312, ../sass/style.scss */
+.page-title:after {
+  background: #3a529a;
+  background: -moz-linear-gradient(-1deg, #3a529a 0%, #3a529a 29%, #32478d 29%, #32478d 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #3a529a), color-stop(29%, #3a529a), color-stop(29%, #32478d), color-stop(100%, #32478d));
+  background: -webkit-linear-gradient(-1deg, #3a529a 0%, #3a529a 29%, #32478d 29%, #32478d 100%);
+  background: -o-linear-gradient(-1deg, #3a529a 0%, #3a529a 29%, #32478d 29%, #32478d 100%);
+  background: -ms-linear-gradient(-1deg, #3a529a 0%, #3a529a 29%, #32478d 29%, #32478d 100%);
+  background: linear-gradient(-1deg, #3a529a 0%, #3a529a 29%, #32478d 29%, #32478d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a529a', endColorstr='#32478d', GradientType=1 );
+  content: "";
+  height: 46px;
+  position: absolute;
+  right: -8px;
+  top: -11px;
+  transform: rotate(15deg);
+  width: 44px;
+  z-index: -1;
+}
+
+/* line 331, ../sass/style.scss */
+.page-title:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 2;
+  width: 100%;
+  background: #fff;
+}
+
+/* line 343, ../sass/style.scss */
 .car-block {
   height: 215px;
   margin-bottom: 30px;
@@ -9819,7 +9873,7 @@ body > .wrap > .row {
   overflow: hidden;
   background: transparent url("../img/car-block-bg.png") left center no-repeat;
 }
-/* line 298, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .car-block__img {
   position: absolute;
   top: calc(0px + 15px);
@@ -9828,32 +9882,32 @@ body > .wrap > .row {
   right: 0;
   margin: auto;
 }
-/* line 307, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .car-block__category {
   padding-right: 15px;
   font-weight: bold;
   margin-top: 35px;
 }
-/* line 312, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 .car-block__category-text {
   font-size: 18px;
   color: #0e0e0e;
 }
-/* line 316, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .car-block__category-value {
   color: #3d59ab;
   display: inline-block;
   word-wrap: break-word;
   width: 100px;
 }
-/* line 322, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .car-block__action {
   padding-right: 15px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-/* line 328, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .car-block__limit {
   font-weight: bold;
   font-size: 24px;
@@ -9861,7 +9915,7 @@ body > .wrap > .row {
   color: #0d0d0d;
   display: inline-block;
 }
-/* line 335, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 .car-block .row, .car-block .columns {
   height: 100%;
   position: relative;
@@ -9869,7 +9923,7 @@ body > .wrap > .row {
 
 /* END car-block */
 /* footer */
-/* line 349, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -9879,7 +9933,7 @@ body > .wrap > .row {
   padding: 24px 0;
   background: #4e629f;
 }
-/* line 357, ../sass/style.scss */
+/* line 408, ../sass/style.scss */
 .footer-wrap::before {
   content: '';
   width: 100%;
@@ -9890,7 +9944,7 @@ body > .wrap > .row {
   background: transparent url("../img/footer-overlay.png") left top repeat;
 }
 
-/* line 368, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .site-info {
   font-size: 12px;
   color: #dbdbdb;
