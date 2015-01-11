@@ -1,4 +1,34 @@
 ---
-layout: layout
+layout: page
 title: Наш автопарк
+description: > # 
+  Автопарк нашей компании состоит из грузовых автомобилей разных габаритов, что позволяет подобрать оптимальный транспорт на грузоперевозки любой сложности. Кузова всех наших машин специально оборудованы для перевозки мебели, с защитой от повреждений хрупких вещей.
+handle: autopark
 ---
+<div class="row">
+{% for item in site[page.handle] %}
+    <div class="columns small-6">
+      <div class="car-block">
+        <div class="row collapse">
+          <div class="columns small-8">
+            <img  class="car-block__img" src="{{site.baseurl}}img/{{item.img}}" alt="">
+          </div>
+          <div class="columns small-4 small-text-right">
+            <div class="car-block__category">
+              <span class="car-block__category-text">Категория</span> <br>
+              <span class="car-block__category-value">
+                {{item.category}}
+              </span>
+            </div>
+            <!-- /.car-block__category -->
+            <div class="car-block__action">
+              <span class="car-block__limit">до {{item.kg_limit}}КГ</span>
+              <a href="#" class="button em radius tiny car-block__order js-openModal">Заказать</a>
+            </div>
+            <!-- /.car-block__ -->
+          </div>
+        </div>
+      </div>
+    </div>
+{% endfor %}
+  </div>

@@ -92,10 +92,13 @@ $font-family-sans-serif: 'PT Sans', sans-serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal !default;
-// $font-weight-bold: bold !default;
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
 
 $white       : #FFFFFF; 
+$darkGreen   : #5fa800;
+$greengradient: rgb(99,176,26);
+
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -397,7 +400,7 @@ $anchor-font-color: $link;
 $crumb-bg: $transparent;
 
 // We use these to set the padding around the breadcrumbs.
-$crumb-padding: rem-calc(17 10 8);
+$crumb-padding: rem-calc(17 0 8);
 $crumb-side-padding: rem-calc(6);
 
 // We use these to control border styles.
@@ -425,7 +428,7 @@ $crumb-slash: "/";
 // $include-html-button-classes: $include-html-classes;
 
 // We use these to build padding for buttons.
-// $button-tny: rem-calc(10);
+$button-tny: rem-calc(12, 32);
 // $button-sml: rem-calc(14);
 // $button-med: rem-calc(16);
 // $button-lrg: rem-calc(18);
@@ -438,22 +441,22 @@ $crumb-slash: "/";
 // $button-font-family: $body-font-family;
 // $button-font-color: $white;
 // $button-font-color-alt: $oil;
-// $button-font-tny: rem-calc(11);
+$button-font-tny: rem-calc(18);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
 // $button-font-lrg: rem-calc(20);
-// $button-font-weight: $font-weight-normal;
+$button-font-weight: $font-weight-bold;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
 
 // We use these to control button border and hover styles.
-// $button-border-width: 0px;
+$button-border-width: 1px;
 // $button-border-style: solid;
-// $button-bg-color: $primary-color;
+$button-bg-color: $greengradient;
 // $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
-// $button-border-color: $button-bg-hover;
+$button-border-color: $darkGreen;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 // $secondary-button-border-color: $secondary-button-bg-hover;
 // $success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor);
@@ -462,7 +465,7 @@ $crumb-slash: "/";
 // $alert-button-border-color: $alert-button-bg-hover;
 
 // We use this to set the default radius used throughout the core.
-// $button-radius: $global-radius;
+$button-radius: 6px;
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.

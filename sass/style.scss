@@ -182,6 +182,8 @@ body > .wrap > .row{
 
 }
 
+/* wraps */
+
 .top-bar-wrap{
   background:#2d4487;
 }
@@ -208,6 +210,12 @@ body > .wrap > .row{
   border-bottom: 1px solid #dcdcdc;
   background:$white;
 }
+
+.page-wrap{
+  padding-bottom: 90px;
+}
+/* END wraps */
+
 
 .b-title{
   text-align: center;
@@ -241,6 +249,98 @@ body > .wrap > .row{
     border-bottom-color: transparent;
   }
 }
+
+/* car-blocks */
+
+.page-description{
+  margin-bottom: 45px;
+}
+
+
+
+.button{
+  vertical-align: middle;
+  line-height: 1;
+  overflow: hidden;
+  position: relative;
+  background: rgb(99,176,26);
+  box-shadow: inset 0 -5px 10px #3b790b;
+  background: -moz-linear-gradient(top,  rgba(99,176,26,1) 0%, rgba(76,145,19,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(99,176,26,1)), color-stop(100%,rgba(76,145,19,1)));
+  background: -webkit-linear-gradient(top,  rgba(99,176,26,1) 0%,rgba(76,145,19,1) 100%);
+  background: -o-linear-gradient(top,  rgba(99,176,26,1) 0%,rgba(76,145,19,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(99,176,26,1) 0%,rgba(76,145,19,1) 100%);
+  background: linear-gradient(to bottom,  rgba(99,176,26,1) 0%,rgba(76,145,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b01a', endColorstr='#4c9113',GradientType=0 );
+  &.em{
+    font-style: italic;
+  }
+  &:before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    background:#8ac456;
+    width: 100%;
+    left: 0;
+    top:0px;
+  }
+  &:hover, &:focus{
+    box-shadow: none;
+  }
+}
+
+.car-block{
+  height: 215px;
+  margin-bottom: 30px;
+  border: 1px solid $blue;
+  overflow: hidden;
+  background:transparent url('../img/car-block-bg.png') left center no-repeat;
+  &__img{
+    // min-height: 215px;
+    position: absolute;
+    top:calc(0px + 15px);
+    bottom:0;
+    left:0 ;
+    right: 0; 
+    margin: auto;
+  }
+  &__category{
+    padding-right: 15px;
+    font-weight: bold; 
+    margin-top: 35px;
+  }
+  &__category-text{
+    font-size: 18px;
+    color: #0e0e0e;
+  }
+  &__category-value{
+    color: $lightblue;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 100px;
+  }
+  &__action{
+    padding-right: 15px;
+    position: absolute;
+    bottom:0;
+    right:0;
+  }
+  &__limit{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0d0d0d;
+    display: inline-block;
+  }
+  .row, .columns{
+    height: 100%;
+    position: relative;
+  }
+}
+
+/* END car-block */
+
+
 
 
 

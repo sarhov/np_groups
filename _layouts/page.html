@@ -1,0 +1,24 @@
+---
+layout: layout
+---
+
+<div class="wrap page-wrap">
+  <div class="row">
+    <div class="columns small-12">
+      <h2 class="page-title">
+        {{page.title}}
+      </h2>
+    </div>
+    {% if page.description %}
+    <div class="columns small12">
+      <div class="page-description">
+        {{page.description}}
+      </div>
+    </div>
+    {% endif %}
+    <div class="columns small-12">
+      {{content}}
+    </div>
+  </div>
+</div>
+</div>

@@ -12,3 +12,8 @@ github_username:  sarhov
 markdown: kramdown
 include:      ["*.scss"]
 exclude: ["*.sublime-project", "*.sublime-workspace"]
+collections:
+  autopark:
+    output: true
+  guarantees:
+    output: true  
