@@ -8,24 +8,24 @@ handle: autopark
 <div class="row">
 {% for item in site[page.handle] %}
     <div class="columns small-6">
-      <div class="car-block">
+      <div class="b-cars">
         <div class="row collapse">
           <div class="columns small-8">
-            <img  class="car-block__img" src="{{site.baseurl}}img/{{item.img}}" alt="">
+            <img  class="b-cars__img" src="{{site.baseurl}}img/{{item.img}}" alt="">
           </div>
           <div class="columns small-4 small-text-right">
-            <div class="car-block__category">
-              <span class="car-block__category-text">Категория</span> <br>
-              <span class="car-block__category-value">
+            <div class="b-cars__category">
+              <span class="b-cars__category-text">Категория</span> <br>
+              <span class="b-cars__category-value">
                 {{item.category}}
               </span>
             </div>
-            <!-- /.car-block__category -->
-            <div class="car-block__action">
-              <span class="car-block__limit">до {{item.kg_limit}}КГ</span>
-              <a href="#" class="button em radius tiny car-block__order js-openModal">Заказать</a>
+            <!-- /.b-cars__category -->
+            <div class="b-cars__action">
+              <span class="b-cars__limit">до {{item.kg_limit}}КГ</span>
+              <a href="#" class="button em radius tiny b-cars__order js-openModal">Заказать</a>
             </div>
-            <!-- /.car-block__ -->
+            <!-- /.b-cars__ -->
           </div>
         </div>
       </div>
