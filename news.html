@@ -1,19 +1,21 @@
 ---
 layout: page
 title: Новости
-permalink: /news/
+handle: news
 ---
 
 
-  {% for article in site.news %}
-    <div class="b-article">
-      <time datetime="{{article.date}}" class="b-article__date">{{article.date |  date: "%-d.%m.%Y" }}</time>
-      <h2 class="b-article__title">
-        <a href="" class="b-article__link">{{article.title}}</a>
-      </h2>
-      <p class="b-article__excerpt">
-        {{article.content | strip_html}}
-      </p>
-    </div>
-    <!-- /.b-article -->
-  {% endfor %}
+{% for article in site[page.handle] %}
+<div class="b-article">
+  <time datetime="{{article.date}}" class="b-article__date">{{article.date |  date: "%-d.%m.%Y" }}</time>
+  <h2 class="b-article__title">
+    <a href="" class="b-article__link">{{article.title}}</a>
+  </h2>
+  <p class="b-article__excerpt">
+    {{article.content | strip_html}}
+  </p>
+</div>
+<!-- /.b-article -->
+{% endfor %}
+
+{% include pagination.html %}

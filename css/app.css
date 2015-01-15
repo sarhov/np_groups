@@ -5720,20 +5720,20 @@ kbd {
 /* line 149, ../sass/components/_pagination.scss */
 ul.pagination {
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.5625rem;
   margin-left: -0.3125rem;
 }
 /* line 104, ../sass/components/_pagination.scss */
 ul.pagination li {
   height: 1.5rem;
-  color: #222222;
-  font-size: 0.875rem;
+  color: #333333;
+  font-size: 0.75rem;
   margin-left: 0.3125rem;
 }
 /* line 110, ../sass/components/_pagination.scss */
 ul.pagination li a, ul.pagination li button {
   display: block;
-  padding: 0.0625rem 0.625rem 0.0625rem;
+  padding: 0.1875rem 0.625rem 0.1875rem;
   color: #999999;
   background: none;
   border-radius: 12px;
@@ -5759,7 +5759,7 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
 }
 /* line 68, ../sass/components/_pagination.scss */
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #008CBA;
+  background: #3a529a;
   color: #FFFFFF;
   font-weight: bold;
   cursor: default;
@@ -9992,8 +9992,20 @@ body > .wrap > .row {
 }
 
 /* END b-article */
+/* line 464, ../sass/style.scss */
+.b-pagination {
+  padding-top: 5px;
+}
+
+/* line 468, ../sass/style.scss */
+ul.pagination li a, ul.pagination li button {
+  border-radius: 0;
+  background: #cdcdcd;
+  color: #060606;
+}
+
 /* footer */
-/* line 465, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -10003,7 +10015,7 @@ body > .wrap > .row {
   padding: 24px 0;
   background: #4e629f;
 }
-/* line 473, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 .footer-wrap::before {
   content: '';
   width: 100%;
@@ -10014,7 +10026,7 @@ body > .wrap > .row {
   background: transparent url("../img/footer-overlay.png") left top repeat;
 }
 
-/* line 484, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .site-info {
   font-size: 12px;
   color: #dbdbdb;

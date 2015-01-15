@@ -460,6 +460,18 @@ body > .wrap > .row{
 
 /* END b-article */
 
+
+.b-pagination{
+  padding-top: 5px;
+}
+
+ul.pagination li a, ul.pagination li button{
+  border-radius: 0;
+  background:#cdcdcd;
+  color: #060606;
+}
+
+
 /* footer */
 
 .footer-wrap{

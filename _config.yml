@@ -18,4 +18,8 @@ collections:
   guarantees:
     output: true  
   news:
+    output: true    
+  articles:
+    output: true      
+  prices:
     output: true  
