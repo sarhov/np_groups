@@ -5,9 +5,9 @@ description:  Автомобильные грузоперевозки
 slogan:  Ваш надежный партнер в мире грузоперевозок!
 baseurl: "/np_groups/"
 url: "./" # the base hostname & protocol for your site
-
+paginate_path: "news/page:num/"
 github_username:  sarhov
-
+paginate: 3
 # Build settings
 markdown: kramdown
 include:      ["*.scss"]
@@ -16,4 +16,6 @@ collections:
   autopark:
     output: true
   guarantees:
+    output: true  
+  news:
     output: true  

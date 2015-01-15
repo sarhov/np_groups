@@ -311,14 +311,14 @@ body > .wrap > .row{
   background: -ms-linear-gradient(-1deg, rgba(58,82,154,1) 0%, rgba(58,82,154,1) 29%, rgba(50,71,141,1) 29%, rgba(50,71,141,1) 100%);
   background: linear-gradient(-1deg, rgba(58,82,154,1) 0%, rgba(58,82,154,1) 29%, rgba(50,71,141,1) 29%, rgba(50,71,141,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a529a', endColorstr='#32478d', GradientType=1 );
-    content: "";
-    height: 46px;
-    position: absolute;
-    right: -8px;
-    top: -11px;
-    transform: rotate(15deg);
-    width: 44px;
-    z-index: -1;
+  content: "";
+  height: 46px;
+  position: absolute;
+  right: -8px;
+  top: -11px;
+  transform: rotate(15deg);
+  width: 44px;
+  z-index: -1;
 }
 
 .page-title:before{
@@ -409,12 +409,12 @@ body > .wrap > .row{
   margin-bottom: 50px;
   padding-bottom: 25px;
   border-bottom: 1px solid #dcdcdc;
-  @at-root .b-guarantees-wrap:first-child &{
-    &__img{
-      margin-top: -100px;
-    }
+  &:first-child 
+  &__img{
+    margin-top: -100px;
   }
-  @at-root .b-guarantees-wrap:last-child &{
+  
+  &:last-child {
     margin-bottom: 0;
     border-bottom: none;
   }
@@ -427,7 +427,38 @@ body > .wrap > .row{
 /*  END b-guarantees */
 
 
+/* b-article */
 
+.b-article{
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 33px;  
+  padding-bottom: 11px;
+
+  &__date{
+    color: $white;
+    font-size: 12px;
+    background:$blue;
+    display: inline-block;
+    padding: 4px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 4px;
+  }
+  &__excerpt{
+    margin-bottom: 0;
+  }
+  &__link{
+    color: $blue;
+  }
+}
+
+/* END b-article */
 
 /* footer */
 

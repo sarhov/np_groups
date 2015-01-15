@@ -14,7 +14,7 @@
         <ul class="left">
           {% for nav in site.data.navigation.top-nav %}
           {% assign current = page.url | replace: '/', '' %}
-          <li {% if nav.url == current %} class="active" {% endif %}><a href="{{nav.url}}">{{nav.title}}</a></li> 
+          <li {% if nav.url == current %} class="active" {% endif %}><a href="{{site.baseurl}}{{nav.url}}">{{nav.title}}</a></li> 
           {% endfor %}
         </ul> 
       </section> 

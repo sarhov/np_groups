@@ -7982,7 +7982,7 @@ a {
 }
 /* line 222, ../sass/components/_type.scss */
 a:hover, a:focus {
-  color: #dbdbdb;
+  color: #0078a0;
 }
 /* line 230, ../sass/components/_type.scss */
 a img {
@@ -9940,12 +9940,13 @@ body > .wrap > .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #dcdcdc;
 }
-/* line 413, ../sass/style.scss */
-.b-guarantees-wrap:first-child .b-guarantees__img {
+/* line 412, ../sass/style.scss */
+.b-guarantees:first-child
+.b-guarantees__img {
   margin-top: -100px;
 }
 /* line 417, ../sass/style.scss */
-.b-guarantees-wrap:last-child .b-guarantees {
+.b-guarantees:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
@@ -9956,8 +9957,43 @@ body > .wrap > .row {
 }
 
 /*  END b-guarantees */
+/* b-article */
+/* line 432, ../sass/style.scss */
+.b-article {
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 33px;
+  padding-bottom: 11px;
+}
+/* line 439, ../sass/style.scss */
+.b-article__date {
+  color: #FFFFFF;
+  font-size: 12px;
+  background: #3a529a;
+  display: inline-block;
+  padding: 4px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+/* line 448, ../sass/style.scss */
+.b-article__title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+/* line 453, ../sass/style.scss */
+.b-article__excerpt {
+  margin-bottom: 0;
+}
+/* line 456, ../sass/style.scss */
+.b-article__link {
+  color: #3a529a;
+}
+
+/* END b-article */
 /* footer */
-/* line 434, ../sass/style.scss */
+/* line 465, ../sass/style.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -9967,7 +10003,7 @@ body > .wrap > .row {
   padding: 24px 0;
   background: #4e629f;
 }
-/* line 442, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 .footer-wrap::before {
   content: '';
   width: 100%;
@@ -9978,7 +10014,7 @@ body > .wrap > .row {
   background: transparent url("../img/footer-overlay.png") left top repeat;
 }
 
-/* line 453, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 .site-info {
   font-size: 12px;
   color: #dbdbdb;
