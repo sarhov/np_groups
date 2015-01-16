@@ -3,3 +3,100 @@ layout: page
 title: Тарифы
 ---
 
+{% for price in site.prices %} 
+<div class="b-price">
+  <div class="row">
+    <div class="columns small-2">
+      <div class="b-price__category">
+        <span class="b-price__category-number">{{price.category}}</span>
+        <span class="b-price__category-text">категория</span>
+      </div>
+      <!-- /.b-price__category -->
+      <div class="b-price__title">
+        <span class="b-price__title-text">
+          {{price.title}}
+        </span>
+      </div>
+      <!-- /.b-price__title -->
+      <div class="b-price__action">
+       <a href="#" class="button em radius tiny b-price__order js-openModal">Заказать</a>
+     </div>
+     <!-- /.b-price__action -->
+   </div>
+   <!-- /.columns small-2 -->
+   <div class="columns small-4">
+    <figure class="b-price__image">
+      <img src="{{site.baseurl}}img/{{price.img}}" alt="{{price.title}}" class="b-price__img">
+    </figure>
+    <!-- /.b-price__image -->
+  </div>
+  <!-- /.columns small-4 -->
+  <div class="columns small-6">
+    <div class="b-price__list">
+      <ul class="b-options-list clearfix">
+        <li class="b-options-list__key">
+          <span class="b-options-list__icon">
+            <svg class="icon icon-delivery_box">
+              <use xlink:href="#icon-delivery_box"></use>
+            </svg>
+            <!-- /.icon-icon-delivery icon-icon-delivery_box -->
+          </span>
+          <!-- b-options-list__icon -->
+          <div class="b-options-list__line">
+            <span class="b-options-list__key-text">
+              Грузоподъемность 
+            </span>
+            <!-- /.options-list__key -->
+            <span class="b-options-list__value">
+              {{price.carrying}}
+            </span>
+          </div>
+          <!-- /.b-options-list__line -->
+          <!-- /.options-list__value -->
+        </li>
+
+        <li class="b-options-list__key">
+          <span class="b-options-list__icon">
+            <svg class="icon icon-building"><use xlink:href="#icon-building"></use></svg>
+          </span>
+          <!-- b-options-list__icon -->
+          <div class="b-options-list__line">
+            <span class="b-options-list__key-text">
+              Минимальный заказ 
+            </span>
+            <!-- /.options-list__key -->
+            <span class="b-options-list__value">
+              {{price.min_order}}
+            </span>
+          </div>
+          <!-- /.b-options-list__line -->
+          <!-- /.options-list__value -->
+        </li>
+
+        <li class="b-options-list__key">
+          <span class="b-options-list__icon">
+            <svg class="icon icon-map"><use xlink:href="#icon-map"></use></svg>
+          </span>
+          <!-- b-options-list__icon -->
+          <div class="b-options-list__line">
+            <span class="b-options-list__key-text">
+              По России 
+            </span>
+            <!-- /.options-list__key -->
+            <span class="b-options-list__value">
+            {{price.km_price}}
+            </span>
+          </div>
+          <!-- /.b-options-list__line -->
+        </li>
+        <!-- /.options-list__value -->
+
+      </ul>
+      <!-- /.options-list -->
+    </div>
+    <!-- /.b-price__list -->
+  </div>
+  <!-- /.columns small-6 -->
+</div>
+</div>
+{% endfor %}

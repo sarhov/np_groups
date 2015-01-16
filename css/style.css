@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$blue".
-        on line 95 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
+        on line 80 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss
 
-90: 
-91: 
-92: 
-93: .header-wrap{
-94:   padding: 23px 0;
-95:   background:$blue;
-96: }
-97: 
-98: .logo-link{
-99:   position: relative;
-100:   z-index: 1;
+75: }
+76: 
+77: .b-options-list__icon .icon{
+78:   height: 28px;
+79:   width: 28px;
+80:   color: $blue;
+81:   margin: auto;
+82:   display: block;
+83:   margin-top: 8px;
+84: }
+85: 
 
 Backtrace:
-C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:95
+C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss:80
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -66,4 +66,4 @@ C:/jekyll/ruby/lib/ruby/gems/2.0.0/gems/listen-2.8.3/lib/listen/listener.rb:318:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 95 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 90: \A 91: \A 92: \A 93: .header-wrap{\A 94:   padding: 23px 0;\A 95:   background:$blue;\A 96: }\A 97: \A 98: .logo-link{\A 99:   position: relative;\A 100:   z-index: 1;"; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 80 of C:/Users/sarhov/Dropbox/Projects/np_groups/sass/style.scss\A \A 75: }\A 76: \A 77: .b-options-list__icon .icon{\A 78:   height: 28px;\A 79:   width: 28px;\A 80:   color: $blue;\A 81:   margin: auto;\A 82:   display: block;\A 83:   margin-top: 8px;\A 84: }\A 85: "; }
