@@ -2,3 +2,34 @@
 layout: page
 title: Услуги
 ---
+
+{% for service in site.services %}
+  <div class="b-service clearfix">
+    <div class="row">
+      <div class="columns small-2">
+        <div class="b-service__icon">
+          <svg class="icon icon-{{service.icon_name}}">
+            <use xlink:href="#icon-{{service.icon_name}}">
+          </svg>
+        </div>
+        <!-- /.b-service__icon -->
+        <a href="#" class="b-service__order">
+          Заказать
+        </a>
+        <!-- /.b-service__order -->
+      </div>
+      <!-- /.columns small-2 -->
+      <div class="columns small-10 b-service__left-padding">
+        <h2 class="b-service__title">{{service.title}}</h2>
+        <!-- b-service__title -->
+        <div class="b-service__description">
+          {{service.content}}
+        </div>
+        <!-- b-service__description -->
+      </div>
+      <!-- /.columns small-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.b-service -->
+{% endfor %}

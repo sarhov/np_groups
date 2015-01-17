@@ -22,4 +22,6 @@ collections:
   articles:
     output: true      
   prices:
+    output: true      
+  services:
     output: true  
