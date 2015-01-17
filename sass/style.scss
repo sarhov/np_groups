@@ -121,6 +121,21 @@
 }
 }
 
+.b-skills .icon{
+  width: 60px;
+  height: 60px;
+  color: $blue;
+  float: left;
+  margin-right: 14px;
+}
+
+.b-skills{
+  .icon-services{
+    width: 61px;
+    margin-right: 13px;
+  }
+}
+
 body{
   // min-height: 1000%; height: auto;
   padding-bottom: 123px;
@@ -256,6 +271,7 @@ body > .wrap > .row{
   padding: 50px 0 80px 0;
   border-bottom: 1px solid #dcdcdc;
   background:$white;
+  z-index: -1;
 }
 
 .page-wrap{
@@ -395,6 +411,78 @@ body > .wrap > .row{
     border-bottom-color: transparent;
   }
 }
+
+
+
+
+/* b-skills */
+
+.b-skills{
+  height: 88px;
+  padding-top: 12px;
+  &__description{
+    display: table-cell;
+    height: 65px;
+    vertical-align: middle;
+  }
+  line-height: 1.2;
+  span{
+    display: block;
+    color: #0e0e0e;
+    font-size: 16px;
+  }
+  &__text-bold{
+    font-weight: bold;
+  }
+  &_middle{
+    width: 200px;
+    margin: auto;
+  }
+  &_bordered{
+        border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+  }
+}
+
+.skills-wrap{
+  padding: 27px 0;
+  position: relative;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 68%, rgba(235,235,235,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(68%,rgba(246,246,246,1)), color-stop(100%,rgba(235,235,235,1)));
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 68%,rgba(235,235,235,1) 100%);
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 68%,rgba(235,235,235,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 68%,rgba(235,235,235,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 68%,rgba(235,235,235,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 );
+
+}
+
+.skills-wrapper{
+  position: relative;
+  z-index: 1;
+  &:before, &:after{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 12px;
+    box-shadow: 0 0 17px 4px #262626;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transform: rotate(-1deg);
+    width: 40%;
+    z-index: -1;
+  }
+  &:after{
+    transform: rotate(1deg);
+    box-shadow: 0 0 17px 4px #262626;
+    left: auto;
+    right: 0;
+  }
+}
+
+/* END b-skills */
+
 
 /* b-cars */
 
