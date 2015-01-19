@@ -2,23 +2,20 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-jQuery(document).ready(function($) {
+$(document).ready(function() {
+
+  // custom select
  $('.js-selectDirection').selectik({
   minScrollHeight: 20,
   maxItems: 8,
   width: 380
 });
-});
 
+ // reviews carousel
 
+ var owl = $("#reviewCarousel");
 
-$(document).ready(function() {
-
-  var owl = $("#reviewCarousel");
-
-
-
-  owl.owlCarousel({
+ owl.owlCarousel({
 
     // Most important owl features
     items : 2,
@@ -121,32 +118,28 @@ $(document).ready(function() {
 
   })
 
-
-
     // Custom Navigation Events
     $(".js-carouselPrev").click(function(e){
       e.preventDefault();
       owl.trigger('owl.next');
-     
     })
     $(".js-carouselNext").click(function(e){
       e.preventDefault();
       owl.trigger('owl.prev');
-     
     })
 
-
-      $('.js-playVideo').click(function() {
-        owl.trigger('owl.stop')
-        if ($(this).find('video').get(0).paused ) {
-          $(this).find('video').get(0).play();
-          $(this).toggleClass('pause play'); 
-        }
-        else{
-          $(this).find('video').get(0).pause();
-          $(this).toggleClass('play pause')
-        } 
-      });
+    //play stop video
+    $('.js-playVideo').click(function() {
+      owl.trigger('owl.stop')
+      if ($(this).find('video').get(0).paused ) {
+        $(this).find('video').get(0).play();
+        $(this).toggleClass('pause play'); 
+      }
+      else{
+        $(this).find('video').get(0).pause();
+        $(this).toggleClass('play pause')
+      } 
+    });
 
 
   });
