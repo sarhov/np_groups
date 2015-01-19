@@ -690,6 +690,15 @@ body > .wrap > .row{
 
 /* END b-review */
 
+.b-command{
+  padding-top: 30px;
+  &__content{
+  -moz-columns: 2;
+  -webkit-columns: 2;
+  columns: 2;
+  }
+}
+
 
 /* b-cars */
 
