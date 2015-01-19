@@ -1,3 +1,5 @@
+@import "compass";
+
 /* icons styles */
 
 .icon {
@@ -148,6 +150,16 @@
   .icon-profit{
     width: 60px;
   }
+}
+
+.b-reviews__carousel-actions .icon{
+  width: 46px;
+  height: 46px;
+  color: $blue;
+}
+
+.b-reviews__carousel-actions.disabled .icon {
+  color: #d4d4d4;
 }
 
 /* END icons styles */
@@ -510,6 +522,174 @@ body > .wrap > .row{
 
 /* END b-skills */
 
+/* b-review */
+
+.review-carousel{
+  // background:#9c0;
+  overflow: hidden;
+  height: 230px;
+  width: 740px;
+}
+
+.b-review{ 
+  width: 310px;
+  // float: left;
+  margin-left: 50px;
+  // background:#90c;
+  overflow: hidden;
+  padding: 2px;
+  &__header{
+    margin-bottom: 22px;
+  }
+  &__avatar{
+    margin: 0 18px 0 0;
+    float: left;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid $blue;
+    position: relative;
+    background:#fff;
+  }
+  &__img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+  }
+  &__author{
+    overflow: hidden;
+    padding-top: 12px; 
+    line-height: 1;
+  }
+  &__author-text{
+    display: block;
+    font-size: 22px;
+    color: #3a529a;
+    margin-bottom: 2px;
+    line-height: 1;
+  }
+  &__date{
+    color: #3a529a;
+    font-size: 13px;
+  }
+  &__content{
+    clear: both;
+    height: 145px;
+    width: 305px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    border-radius: 8px;
+    padding: 22px 21px;
+    background:#fff;
+    box-shadow: 0 0 1px #FBF2F2;
+    &:before{
+      content: '';
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top:-10px;
+      left:18px;
+      background:transparent url('../img/buble_white.png') left top no-repeat;
+    }
+    &_black{
+      border-color:#e5e5e5;
+      background:#000;
+      color: #fff;
+      padding: 21px;
+          &:before{
+      content: '';
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top:-12px;
+      left:18px;
+      background:transparent url('../img/buble_black.png') left top no-repeat;
+    }
+    }
+  }
+  &__content-text{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000;
+  }
+  &__content-video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top:0;
+      z-index: 3;
+      opacity: 1;
+      @include transition(all, 0.7s);
+      @include transform(scale(1));
+      background:transparent url('../img/play.png') center 52% no-repeat;
+    }
+    &.play:before{
+      opacity: 0;
+      @include transform(scale(3));
+      visibility: hidden;
+    }
+
+    video{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      height: auto;
+      left: 0;
+      top:0;
+      max-height: 100%;
+    }
+  }
+}
+
+.b-reviews{
+  position: relative;
+  padding-top: 20px;
+  &__carousel-actions{
+    position: absolute;
+    top: 115px;
+    &_left{
+      left: 0;
+    }
+    &_right{
+      right: 0;
+    }
+  }
+  &__action{
+    padding-top: 35px;
+  }
+  &__add-review{
+    color: $blue;
+    border: 1px solid $blue;
+    border-radius: 25px;
+    padding: 9px;
+    text-align: center;
+    display: inline-block;
+    @include transition(all, 0.2s);
+    font-weight: bold;
+    font-size: 18px; 
+    width: 190px;
+    &:hover{
+      background: darken(#fff, 5%);
+      color: $blue;
+    }
+  }
+}
+
+/* END b-review */
+
 
 /* b-cars */
 
@@ -695,196 +875,196 @@ body > .wrap > .row{
 
 /* Styles for custom selects */
 .done select {
-    height: 1px;
-    width: 1px;
-    border: none;
-    background: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: -2px;
-    z-index: -10;
-    outline: none;
-    -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -2px;
+  z-index: -10;
+  outline: none;
+  -webkit-appearance: none;
 }
 
 .select-list {
-    position: absolute;
-    left: 0
+  position: absolute;
+  left: 0
 }
 
 .custom-select {
-    z-index: 1;
-    width: 400px;
+  z-index: 1;
+  width: 400px;
 }
 
 .custom-select * {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .open_list {
-    z-index: 10
+  z-index: 10
 }
 
 .custom-select ul,
 .custom-select li {
-    margin: 0;
-    padding: 0;
-    list-style: none
+  margin: 0;
+  padding: 0;
+  list-style: none
 }
 
 .custom-select,
 .custom-select ul {
-    position: relative;
-    top: 0;
-    left: 0
+  position: relative;
+  top: 0;
+  left: 0
 }
 
 .custom-select .custom-text {
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .custom-select li {
-    cursor: pointer;
-    min-height: 25px;
+  cursor: pointer;
+  min-height: 25px;
 }
 
 .select-scroll {
-    position: absolute;
-    right: 17px;
-    top: 8px;
-    z-index: 2
+  position: absolute;
+  right: 17px;
+  top: 8px;
+  z-index: 2
 }
 
 .default-scroll ul {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .custom-scroll {
-    overflow: hidden
+  overflow: hidden
 }
 
 .scroll-drag {
-    display: block;
-    position: absolute;
-    left: -3px;
-    cursor: pointer
+  display: block;
+  position: absolute;
+  left: -3px;
+  cursor: pointer
 }
 
 .disabled * {
-    cursor: default !important
+  cursor: default !important
 }
 
 
 .custom-select .custom-text,
 .custom-select.disabled span.custom-text:hover {
-    overflow: hidden;
-    height: 45px;
-    padding: 0 0 0 25px;
-    line-height: 45px;
-    font-size: 21px;
-    color: #464644;
-    border-radius: 6px;
-    border: 1px solid #7180b1;
-    background: #fff;
-    position: relative;
+  overflow: hidden;
+  height: 45px;
+  padding: 0 0 0 25px;
+  line-height: 45px;
+  font-size: 21px;
+  color: #464644;
+  border-radius: 6px;
+  border: 1px solid #7180b1;
+  background: #fff;
+  position: relative;
 }
 
 .custom-select .custom-text:after {
-border-color: #3a529a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-border-style: solid;
-border-width: 10px 7px;
-content: "";
-display: block;
-float: right;
-position: absolute;
-right: 15px;
-top: 19px;
-width: 0;
-z-index: 2;
+  border-color: #3a529a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 10px 7px;
+  content: "";
+  display: block;
+  float: right;
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  width: 0;
+  z-index: 2;
 }
 .custom-select .custom-text:before {
-border-color: #a3aed0 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-border-style: solid;
-border-width: 10px 7px;
-content: "";
-display: block;
-float: right;
-position: absolute;
-right: 15px;
-top: 18px;
-width: 0;
-z-index: 2;
+  border-color: #a3aed0 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 10px 7px;
+  content: "";
+  display: block;
+  float: right;
+  position: absolute;
+  right: 15px;
+  top: 18px;
+  width: 0;
+  z-index: 2;
 }
 
 .custom-select span.custom-text:hover,
 .active span.custom-text {
-   background: #fff;
+ background: #fff;
 }
 
 .select-list {
-    top: 46px;
-    line-height: 46px;
-    padding: 0 0 0 10px;
-    background-color: #fff;
-    color: #464644;
-    border-radius: 6px;
-    border: 1px solid #7180b1;
-    background: #fff;
+  top: 46px;
+  line-height: 46px;
+  padding: 0 0 0 10px;
+  background-color: #fff;
+  color: #464644;
+  border-radius: 6px;
+  border: 1px solid #7180b1;
+  background: #fff;
 }
 
 .select-list li{
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .select-list.custom-scroll {
-    padding:10px 0 10px 25px;
+  padding:10px 0 10px 25px;
 }
 
 .select-list .selected,
 .select-list li:hover {
-    color: #3a529a
+  color: #3a529a
 }
 
 .select-list li.disabled {
-    color: #CCCCCC;
-    cursor: default
+  color: #CCCCCC;
+  cursor: default
 }
 
 .select-scroll {
-    background-color: #ededed;
-    width: 4px;
+  background-color: #ededed;
+  width: 4px;
 }
 
 .scroll-drag {
-    top: 0;
-    width: 10px;
-    background-color: #3a529a;
-    border-radius: 6px;
+  top: 0;
+  width: 10px;
+  background-color: #3a529a;
+  border-radius: 6px;
 }
 
 .maxlength .scroll-drag:after {
-    display: block;
-    content: '';
-    font-size: 14px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin: -14px 0 0 -4px
+  display: block;
+  content: '';
+  font-size: 14px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin: -14px 0 0 -4px
 }
 
 .custom-select .hover {
-    color: #3a529a
+  color: #3a529a
 }
 
 .custom-select.disabled {
-    opacity: 0.5 !important;
+  opacity: 0.5 !important;
 }
 
 /* END b-direction */

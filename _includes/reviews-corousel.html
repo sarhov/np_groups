@@ -3,23 +3,69 @@
     
     <div class="columns small-12">
       <h3 class="b-title b-title_big">
-        <span class="b-title__text b-title__text_blue">Отзывы</span>
-        <span class="b-title__text">клиентов</span>
+        <span class="b-title__text b-title__text_blue sharp">Отзывы</span>
+        <span class="b-title__text sharp">клиентов</span>
       </h3>
       <!-- /.b-title b-title_big -->
       <div class="b-reviews">
-        <div class="b-reviews__carousel columns small-10 centered">
-          
+        <div class="b-reviews__carousel columns small-11 small-centered">
+          <div id="reviewCarousel" class="review-carousel">
+          {% for i in (1..7) %}
+            
+            <div class="b-review">
+              <div class="b-review__header clearfix">
+                <figure class="b-review__avatar">
+                  <img src="{{site.baseurl}}img/review-author_1.png" alt="" class="b-review__img">
+                </figure>
+                <!-- b-review__avatar -->
+                <div class="b-review__author">
+                  <span class="b-review__author-text">Елена Богданова</span>
+                  <time datetime="26-09-2014" class="b-review__date">26.09.2014</time>
+                </div>
+                <!-- b-review__author -->
+              </div> 
+              <div class="b-review__content {% if forloop.index == 2 %} b-review__content_black {% else %} b-review__content_text {% endif %}">
+                {% if forloop.index == 2 %}
+                <div class="b-review__content-video js-playVideo pause" >
+                   <video width="320" height="240">
+                    <source src="{{site.baseurl}}img/movie.mp4" type="video/mp4">
+                    <source src="{{site.baseurl}}img/movie.webm" type="  video/webm">
+                  Your browser does not support the video tag.
+                  </video> 
+                </div>
+                <!-- /.b-review__content-video -->
+                {% else %}
+                <p class="b-review__content-text sharp">
+                  Компания занимается производством,
+                  продажей и установкой деревянных, 
+                  алюминиевых, пластиковых окон и  
+                  дверей только высокого качества. Наша 
+                  продукция давно на российском рынке
+                </p>
+                {% endif %}
+              </div>
+              <!-- b-review__content -->
+            </div>
+            <!-- b-review -->
+
+          {% endfor %}
+          </div>
         </div>
         <!-- /.reviews-carousel -->
-        <a href="" class="b-reivews__carousel__actions">
-          
+        <a href="#" class="b-reviews__carousel-actions b-reviews__carousel-actions_right js-carouselPrev">
+          <svg class="icon icon-arrow-right">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+          <!-- /.icom icon-arow-left -->
         </a>
-        <a href="" class="b-reivews__carousel__actions">
-          
+        <a href="#" class="b-reviews__carousel-actions  b-reviews__carousel-actions_left js-carouselNext">
+          <svg class="icon icon-arrow-left">
+            <use xlink:href="#icon-arrow-left"></use>
+          </svg>
+          <!-- /.icom icon-arow-left -->
         </a>
         <div class="b-reviews__action small-text-center"> 
-          <a href="#" class="round b-reviews__add-review o-button">Добваить отзыв</a>
+          <a href="#" class=" b-reviews__add-review o-button">Добваить отзыв</a>
         </div>
         <!-- /.reviews-action -->
       </div>

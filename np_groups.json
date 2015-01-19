@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"name": "np_groups",
-		"lastOpened": 1421527248292,
+		"lastOpened": 1421528133078,
 		"created": 1419775313683
 	},
 	"iconSets": [
@@ -30858,10 +30858,10 @@
 					"name": "arrow-right"
 				},
 				{
-					"order": 19,
+					"order": 21,
 					"id": 27,
 					"prevSize": 32,
-					"name": "left-arrow"
+					"name": "arrow-left"
 				},
 				{
 					"order": 18,
@@ -31009,7 +31009,7 @@
 					"isMulticolor": false,
 					"grid": 0,
 					"tags": [
-						"left-arrow"
+						"arrow-left"
 					]
 				},
 				{
