@@ -5,11 +5,11 @@ $(document).foundation();
 $(document).ready(function() {
 
   // custom select
- $('.js-selectDirection').selectik({
-  minScrollHeight: 20,
-  maxItems: 8,
-  width: 380
-});
+  $('.js-selectDirection').selectik({
+    minScrollHeight: 20,
+    maxItems: 8,
+    width: 380
+  });
 
  // reviews carousel
 
@@ -140,6 +140,9 @@ $(document).ready(function() {
         $(this).toggleClass('play pause')
       } 
     });
+    $("video").bind("ended", function() {
+      $('.js-playVideo').addClass('pause').removeClass('play')
+   });
 
 
   });
