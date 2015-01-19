@@ -10190,7 +10190,7 @@ body > .wrap > .row {
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   transform: scale(1);
-  background: transparent url("../img/play.png") center 52% no-repeat;
+  background: transparent url("../img/play.png") center 57% no-repeat;
 }
 /* line 638, ../sass/style.scss */
 .b-review__content-video.play:before {
