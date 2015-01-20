@@ -5922,11 +5922,6 @@ body > .wrap > .row {
   opacity: 0.9;
 }
 
-/* line 858, ../sass/_style.scss */
-.reveal-modal, dialog {
-  position: fixed;
-}
-
 /* line 862, ../sass/_style.scss */
 .b-modal {
   width: 370px;

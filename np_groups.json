@@ -1,10 +1,55 @@
 {
 	"metadata": {
 		"name": "np_groups",
-		"lastOpened": 1421528133078,
+		"lastOpened": 1421793408224,
 		"created": 1419775313683
 	},
 	"iconSets": [
+		{
+			"selection": [
+				{
+					"order": 1,
+					"id": 0,
+					"prevSize": 16,
+					"name": "close"
+				}
+			],
+			"id": 6,
+			"metadata": {
+				"name": "IcoMoon-Free (subset)",
+				"url": "https://icomoon.io/#icons-icomoon",
+				"designer": "Keyamoon",
+				"designerURL": "http://keyamoon.com",
+				"license": "GPL or CC BY 4.0",
+				"licenseURL": "https://icomoon.io/#icons-icomoon",
+				"importSize": 16
+			},
+			"height": 1024,
+			"prevSize": 16,
+			"icons": [
+				{
+					"id": 0,
+					"paths": [
+						"M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM512 928c-229.75 0-416-186.25-416-416s186.25-416 416-416 416 186.25 416 416-186.25 416-416 416z",
+						"M672 256l-160 160-160-160-96 96 160 160-160 160 96 96 160-160 160 160 96-96-160-160 160-160z"
+					],
+					"attrs": [
+						{},
+						{}
+					],
+					"isMulticolor": false,
+					"tags": [
+						"cancel-circle",
+						"close",
+						"remove",
+						"delete"
+					],
+					"grid": 16,
+					"matchesSearch": true
+				}
+			],
+			"invisible": false
+		},
 		{
 			"selection": [
 				{
@@ -1839,7 +1884,7 @@
 						"lock-closed"
 					],
 					"grid": 24,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 43,
@@ -3519,7 +3564,7 @@
 						"lock-closed-outline"
 					],
 					"grid": 24,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 163,
@@ -5550,7 +5595,7 @@
 					"matchesSearch": false
 				}
 			],
-			"invisible": true
+			"invisible": false
 		},
 		{
 			"selection": [
@@ -6376,7 +6421,9 @@
 				},
 				{
 					"id": 205,
-					"order": 0
+					"order": 0,
+					"prevSize": 20,
+					"name": "arrow-l"
 				},
 				{
 					"id": 206,
@@ -6388,11 +6435,15 @@
 				},
 				{
 					"id": 208,
-					"order": 0
+					"order": 0,
+					"prevSize": 20,
+					"name": "arrow-r"
 				},
 				{
 					"id": 209,
-					"order": 0
+					"order": 21,
+					"prevSize": 20,
+					"name": "arrow-l"
 				},
 				{
 					"id": 210,
@@ -6404,7 +6455,9 @@
 				},
 				{
 					"id": 212,
-					"order": 0
+					"order": 22,
+					"prevSize": 20,
+					"name": "arrow-r"
 				},
 				{
 					"id": 213,
@@ -8572,7 +8625,7 @@
 						"delete"
 					],
 					"grid": 20,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 121,
@@ -8620,7 +8673,7 @@
 						"delete"
 					],
 					"grid": 20,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 124,
@@ -8668,7 +8721,7 @@
 						"delete"
 					],
 					"grid": 20,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 127,
@@ -10958,7 +11011,7 @@
 					"matchesSearch": false
 				}
 			],
-			"invisible": true
+			"invisible": false
 		},
 		{
 			"selection": [
@@ -13315,7 +13368,7 @@
 						"close"
 					],
 					"grid": 32,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 65,
@@ -13329,7 +13382,7 @@
 						"close"
 					],
 					"grid": 32,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 66,
@@ -13797,7 +13850,7 @@
 						"dismiss"
 					],
 					"grid": 32,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 97,
@@ -17154,7 +17207,7 @@
 						"partially checked"
 					],
 					"grid": 32,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 324,
@@ -17543,7 +17596,7 @@
 					"matchesSearch": false
 				}
 			],
-			"invisible": true
+			"invisible": false
 		},
 		{
 			"selection": [
@@ -25863,7 +25916,7 @@
 					],
 					"defaultCode": 57952,
 					"grid": 16,
-					"matchesSearch": true
+					"matchesSearch": false
 				},
 				{
 					"id": 177,
@@ -27388,7 +27441,7 @@
 					],
 					"defaultCode": 60770,
 					"grid": 16,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 270,
@@ -27421,7 +27474,7 @@
 					],
 					"defaultCode": 58219,
 					"grid": 16,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 272,
@@ -27502,7 +27555,7 @@
 					],
 					"defaultCode": 58238,
 					"grid": 16,
-					"matchesSearch": false
+					"matchesSearch": true
 				},
 				{
 					"id": 277,
@@ -30847,18 +30900,18 @@
 					"matchesSearch": false
 				}
 			],
-			"invisible": true
+			"invisible": false
 		},
 		{
 			"selection": [
 				{
-					"order": 20,
+					"order": 19,
 					"id": 28,
 					"prevSize": 32,
 					"name": "arrow-right"
 				},
 				{
-					"order": 21,
+					"order": 20,
 					"id": 27,
 					"prevSize": 32,
 					"name": "arrow-left"
@@ -30994,7 +31047,8 @@
 					"grid": 0,
 					"tags": [
 						"arrow-right"
-					]
+					],
+					"matchesSearch": false
 				},
 				{
 					"id": 27,
@@ -31010,7 +31064,8 @@
 					"grid": 0,
 					"tags": [
 						"arrow-left"
-					]
+					],
+					"matchesSearch": false
 				},
 				{
 					"id": 26,
@@ -31031,7 +31086,8 @@
 					"grid": 0,
 					"tags": [
 						"awards"
-					]
+					],
+					"matchesSearch": false
 				},
 				{
 					"id": 23,
@@ -31070,7 +31126,8 @@
 					"grid": 0,
 					"tags": [
 						"delivery"
-					]
+					],
+					"matchesSearch": false
 				},
 				{
 					"id": 21,
@@ -31450,7 +31507,7 @@
 					"tags": [
 						"delivery_box"
 					],
-					"matchesSearch": true
+					"matchesSearch": false
 				},
 				{
 					"id": 16,
