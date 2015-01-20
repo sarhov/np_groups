@@ -4,12 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% if page.title %} {{page.title}} {% else %} {{site.title}}  {% endif %}</title>
-  <link rel="stylesheet" href="{{site.baseurl}}css/app.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}css/selectik.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}css/owl.carousel.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}css/owl.transitions.css" />
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <script src="{{site.baseurl}}js/vendor/modernizr.js"></script>
+  {% include styles.html %}
+  <!-- <script src="{{site.baseurl}}js/vendor/modernizr.js"></script> -->
   <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}apple-touch-icon-72x72.png">
@@ -45,11 +41,11 @@
 
   {% include footer.html %}  
 
-  <script src="{{site.baseurl}}js/vendor/jquery.js"></script>
-  <script src="{{site.baseurl}}js/foundation.min.js"></script>
-  <script src="{{site.baseurl}}js/vendor/jquery.mousewheel.js"></script>
-  <script src="{{site.baseurl}}js/vendor/owl.carousel.min.js"></script>
-  <script src="{{site.baseurl}}js/vendor/jquery.selectik.min.js"></script>
-  <script src="{{site.baseurl}}js/app.js"></script>
+  {% include scripts.html %}
+  
+  {% include modal-callback.html %}
+  {% include modal-success.html %}
+  {% include modal-calculate.html %}
+  {% include modal-review.html %}
 </body>
 </html>

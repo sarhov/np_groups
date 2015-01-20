@@ -263,7 +263,7 @@ $h6-font-size: 1rem;
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 $anchor-font-color: $link;
-$anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color-hover: scale-color($link, $lightness: -14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -678,7 +678,7 @@ $fieldset-margin: rem-calc(0 0);
 // $input-error-message-font-color-alt: $oil;
 
 // We use this to style the glowing effect of inputs when focused
-// $input-include-glowing-effect: true;
+$input-include-glowing-effect: false;
 // $glowing-effect-fade-time: 0.45s;
 // $glowing-effect-color: $input-focus-border-color;
 
@@ -1109,8 +1109,8 @@ $pagination-link-current-font-color: $white;
 
 // We use these to style the reveal close button
 // $reveal-close-font-size: rem-calc(40);
-// $reveal-close-top: rem-calc(8);
-// $reveal-close-side: rem-calc(11);
+$reveal-close-top: rem-calc(-35);
+$reveal-close-side: rem-calc(-25);
 // $reveal-close-color: $base;
 // $reveal-close-weight: $font-weight-bold;
 
