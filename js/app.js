@@ -208,9 +208,9 @@ $(document).ready(function() {
        jsonSuccess : false,
 
        //Mouse Events
-       dragBeforeAnimFinish : true,
-       mouseDrag : true,
-       touchDrag : true,
+       dragBeforeAnimFinish : false,
+       mouseDrag : false,
+       touchDrag : false,
 
        //Transitions
        transitionStyle : false,

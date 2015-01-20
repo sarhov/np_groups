@@ -162,6 +162,24 @@
   color: #d4d4d4;
 }
 
+.b-slider-arrows{
+  .icon{
+    color: #e3e3e3;
+    height: 112px;
+    margin-right: 13px;
+    position: relative;
+    width: 65px;
+  }
+  .icon-arrow-l{
+    right: 11px;
+  }
+  .icon-arrow-r{
+    right: 9px;
+  }
+}
+
+
+
 /* END icons styles */
 
 body{
@@ -600,15 +618,15 @@ body > .wrap > .row{
       background:#000;
       color: #fff;
       padding: 21px;
-          &:before{
-      content: '';
-      width: 20px;
-      height: 20px;
-      position: absolute;
-      top:-12px;
-      left:18px;
-      background:transparent url('../img/buble_black.png') left top no-repeat;
-    }
+      &:before{
+        content: '';
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top:-12px;
+        left:18px;
+        background:transparent url('../img/buble_black.png') left top no-repeat;
+      }
     }
   }
   &__content-text{
@@ -693,9 +711,9 @@ body > .wrap > .row{
 .b-command{
   padding-top: 30px;
   &__content{
-  -moz-columns: 2;
-  -webkit-columns: 2;
-  columns: 2;
+    -moz-columns: 2;
+    -webkit-columns: 2;
+    columns: 2;
   }
 }
 
@@ -753,9 +771,11 @@ body > .wrap > .row{
 
 /* END b-cars */
 
+/* b-slider */
+
 .b-slider-item{
   height: 425px;
-  background:#90c;
+  // background:#90c;
   width: 100%;
 }
 
@@ -774,18 +794,56 @@ body > .wrap > .row{
     margin-top: -56px;
     @include transition(all, 0.2s);
     &:hover{
-    background: rgba(0,0,0, 0.25%);
-  }
-  &.disabled{
-    background: rgba(0,0,0, 0.08%);
+      background: rgba(0,0,0, 0.25%);
+    }
+    &.disabled{
+      background: rgba(0,0,0, 0.08%);
 
-  }
+    }
     &_left{
       left: -75px;
     }
     &_right{
       right: -75px;
     }
+  }
+}
+
+/* END slider */
+
+.b-form{
+  &__title{
+    color: #fff;
+    font-weight: bold;
+    &_big{
+      margin-bottom: 30px;
+    }
+  }
+    &__line{
+      margin-bottom: 10px;
+    }
+  &__label{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 55px;
+    margin-right: 10px;
+    max-width: 55px;
+    font-style: italic;
+    margin-top: -6px;
+  }
+  &__input-text{
+    display: inline-block !important;
+    max-width: 280px;
+    width: 285px;
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 15px !important;
+  }
+  &_slider{
+    padding-top: 55px;
+    margin: 0 -15px;
   }
 }
 
