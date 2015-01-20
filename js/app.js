@@ -174,7 +174,7 @@ $(document).ready(function() {
 
        //Autoplay
        autoPlay : false,
-       stopOnHover : false,
+       stopOnHover : true,
 
        // Navigation
        navigation : false,
@@ -185,6 +185,8 @@ $(document).ready(function() {
        //Pagination
        pagination : false,
        paginationNumbers: false,
+        singleItem : true,
+        transitionStyle : "fade",
 
        // Responsive
        responsive: false,
@@ -213,7 +215,7 @@ $(document).ready(function() {
        touchDrag : false,
 
        //Transitions
-       transitionStyle : false,
+       // transitionStyle : false,
 
        // Other
        addClassActive : true,
