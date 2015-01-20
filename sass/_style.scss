@@ -184,15 +184,17 @@
   height: 30px;
 }
 
-
+.reveal-modal-bg{
+  position: fixed;
+}
 
 /* END icons styles */
 
-body{
-  // min-height: 1000%; height: auto;
-  padding-bottom: 123px;
+#wrapper{
+    padding-bottom: 123px;
   min-height: 100%;
   height: auto;
+  position: relative;
 }
 
 .sharp{
@@ -831,7 +833,14 @@ body > .wrap > .row{
   }
 }
 
+@-moz-document url-prefix() {
+html { overflow: hidden; height: 100%; }
+
+body { overflow: auto; height: 100%; }
+}
+
 /* END slider */
+* { outline:none; }
 
 .call-order{
   border: 1px solid #5b74bc;
