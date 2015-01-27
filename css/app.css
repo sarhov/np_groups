@@ -5278,7 +5278,7 @@ blockquote p {
 }
 
 /* line 280, ../sass/_style.scss */
-body > .wrap > .row {
+body .wrapper > .wrap > .row {
   width: 990px !important;
 }
 
