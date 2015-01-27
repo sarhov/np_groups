@@ -195,6 +195,8 @@
   min-height: 100%;
   height: auto;
   position: relative;
+  min-width: 990px;
+  overflow: hidden;
 }
 
 .sharp{
@@ -280,13 +282,13 @@
 body > #wrapper > .wrap > .row{
   min-width: 990px !important;
   width: 990px;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 body > #wrapper > .wrap > .inner> .row{
   min-width: 990px !important;
   width: 990px;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 
