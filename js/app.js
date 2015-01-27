@@ -212,7 +212,7 @@ $(document).ready(function() {
        //Mouse Events
        dragBeforeAnimFinish : false,
        mouseDrag : false,
-       touchDrag : false,
+       touchDrag : true,
 
        //Transitions
        // transitionStyle : false,
