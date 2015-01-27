@@ -734,6 +734,11 @@ body > #wrapper > .wrap > .inner> .row{
     -moz-columns: 2;
     -webkit-columns: 2;
     columns: 2;
+    @media screen and (max-width: 400px) {
+          -moz-columns: none;
+    -webkit-columns: none;
+    columns: none; 
+    }
   }
 }
 
