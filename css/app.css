@@ -5279,7 +5279,7 @@ blockquote p {
 
 /* line 280, ../sass/_style.scss */
 body > #wrapper > .wrap > .row {
-  width: 990px !important;
+  min-width: 990px !important;
 }
 
 /* line 284, ../sass/_style.scss */

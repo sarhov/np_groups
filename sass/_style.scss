@@ -276,9 +276,9 @@
     display: block;
   }
 }
-
+  
 body > #wrapper > .wrap > .row{
-  width: 990px !important;
+  min-width: 990px !important;
 }
 
 .site-addresses{
